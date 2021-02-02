@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Digital Piano</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/13.3.21/Tone.js"></script>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div
+        class="whitenote"
+        onmousedown="noteDown(this, false)"
+        onmouseup="noteUp(this,false)"
+        onmouseleave="noteUp(this,false)"
+        data-note="C4"
+      >
+        <div
+          class="blacknote"
+          onmousedown="noteDown(this, true)"
+          onmouseup="noteUp(this, true)"
+          onmouseleave="noteUp(this,true)"
+          data-note="C#4"
+        ></div>
+      </div>
+      <div
+        class="whitenote"
+        onmousedown="noteDown(this, false)"
+        onmouseup="noteUp(this,false)"
+        onmouseleave="noteUp(this,false)"
+        data-note="D4"
+      >
+        <div
+          class="blacknote"
+          onmousedown="noteDown(this, true)"
+          onmouseup="noteUp(this, true)"
+          onmouseleave="noteUp(this,true)"
+          data-note="D#4"
+        ></div>
+      </div>
+      <div
+        class="whitenote"
+        onmousedown="noteDown(this, false)"
+        onmouseup="noteUp(this,false)"
+        onmouseleave="noteUp(this,false)"
+        data-note="E4"
+      ></div>
+      <div
+        class="whitenote"
+        onmousedown="noteDown(this, false)"
+        onmouseup="noteUp(this,false)"
+        onmouseleave="noteUp(this,false)"
+        data-note="F4"
+      >
+        <div
+          class="blacknote"
+          onmousedown="noteDown(this, true)"
+          onmouseup="noteUp(this, true)"
+          onmouseleave="noteUp(this,true)"
+          data-note="F#4"
+        ></div>
+      </div>
+      <div
+        class="whitenote"
+        onmousedown="noteDown(this, false)"
+        onmouseup="noteUp(this,false)"
+        onmouseleave="noteUp(this,false)"
+        data-note="G4"
+      >
+        <div
+          class="blacknote"
+          onmousedown="noteDown(this, true)"
+          onmouseup="noteUp(this, true)"
+          onmouseleave="noteUp(this,true)"
+          data-note="G#4"
+        ></div>
+      </div>
+      <div
+        class="whitenote"
+        onmousedown="noteDown(this, false)"
+        onmouseup="noteUp(this,false)"
+        onmouseleave="noteUp(this,false)"
+        data-note="A4"
+      >
+        <div
+          class="blacknote"
+          onmousedown="noteDown(this, true)"
+          onmouseup="noteUp(this, true)"
+          onmouseleave="noteUp(this,true)"
+          data-note="A#4"
+        ></div>
+      </div>
+      <div
+        class="whitenote"
+        onmousedown="noteDown(this, false)"
+        onmouseup="noteUp(this,false)"
+        onmouseleave="noteUp(this,false)"
+        data-note="B4"
+      ></div>
+      <div
+        class="whitenote"
+        onmousedown="noteDown(this, false)"
+        onmouseup="noteUp(this,false)"
+        onmouseleave="noteUp(this,false)"
+        data-note="C5"
+      >
+        <div
+          class="blacknote"
+          onmousedown="noteDown(this, true)"
+          onmouseup="noteUp(this, true)"
+          onmouseleave="noteUp(this,true)"
+          data-note="C#5"
+        ></div>
+      </div>
+      <div
+        class="whitenote"
+        onmousedown="noteDown(this, false)"
+        onmouseup="noteUp(this,false)"
+        onmouseleave="noteUp(this,false)"
+        data-note="D5"
+      >
+        <div
+          class="blacknote"
+          onmousedown="noteDown(this, true)"
+          onmouseup="noteUp(this, true)"
+          onmouseleave="noteUp(this,true)"
+          data-note="D#5"
+        ></div>
+      </div>
+      <div
+        class="whitenote"
+        onmousedown="noteDown(this, false)"
+        onmouseup="noteUp(this,false)"
+        onmouseleave="noteUp(this,false)"
+        data-note="E5"
+      ></div>
+      <div
+        class="whitenote"
+        onmousedown="noteDown(this, false)"
+        onmouseup="noteUp(this,false)"
+        onmouseleave="noteUp(this,false)"
+        data-note="F5"
+      >
+        <div
+          class="blacknote"
+          onmousedown="noteDown(this, true)"
+          onmouseup="noteUp(this, true)"
+          onmouseleave="noteUp(this,true)"
+          data-note="F#5"
+        ></div>
+      </div>
+      <div
+        class="whitenote"
+        onmousedown="noteDown(this, false)"
+        onmouseup="noteUp(this,false)"
+        onmouseleave="noteUp(this,false)"
+        data-note="G5"
+      >
+        <div
+          class="blacknote"
+          onmousedown="noteDown(this, true)"
+          onmouseup="noteUp(this, true)"
+          onmouseleave="noteUp(this,true)"
+          data-note="G#5"
+        ></div>
+      </div>
+      <div
+        class="whitenote"
+        onmousedown="noteDown(this, false)"
+        onmouseup="noteUp(this,false)"
+        onmouseleave="noteUp(this,false)"
+        data-note="A5"
+      >
+        <div
+          class="blacknote"
+          onmousedown="noteDown(this, true)"
+          onmouseup="noteUp(this, true)"
+          onmouseleave="noteUp(this,true)"
+          data-note="A#5"
+        ></div>
+      </div>
+      <div
+        class="whitenote"
+        onmousedown="noteDown(this, false)"
+        onmouseup="noteUp(this,false)"
+        onmouseleave="noteUp(this,false)"
+        data-note="B5"
+      ></div>
+    </div>
+  </body>
+</html>
