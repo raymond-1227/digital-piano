@@ -5,7 +5,7 @@ Just a piano tempate with mouse clicks!
 
 ## Example Template
 
-Please [click here](https://raymond-1227.github.io/keyboard-piano) to see how it will look like!
+Please [click here](https://raymond-1227.github.io/digital-piano) to see how it will look like!
 
 ## Credits
 
