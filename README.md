@@ -1,4 +1,4 @@
-# Digital Keyboard
+# Digital Piano
 
 ## About
 Just a piano tempate with mouse clicks!
